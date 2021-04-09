@@ -10,6 +10,7 @@ import matplotlib.dates as mdates
 pathname = __file__
 pathname = pathname[:-8]
 
+#added code
 
 def plot_myPlot():
     conn = sqlite3.connect('cov.db')
